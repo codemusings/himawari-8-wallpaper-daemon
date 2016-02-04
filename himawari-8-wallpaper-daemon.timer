@@ -1,0 +1,9 @@
+[Unit]
+Description=Himawari-8 Satellite Wallpaper daemon
+
+[Timer]
+OnUnitActiveSec=10min
+Unit=himawari-8-wallpaper-daemon.service
+
+[Install]
+WantedBy=multi-user.target

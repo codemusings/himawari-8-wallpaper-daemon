@@ -1,0 +1,6 @@
+[Unit]
+Description=Himawari-8 Satellite Wallpaper script
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/set-himawari-wallpaper.py
