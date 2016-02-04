@@ -25,8 +25,6 @@ time += timedelta(minutes=-(time.time().minute % 10))
 # only multiples of ten for second marks as well?
 url += time.strftime("%Y/%m/%d/%H%M00")
 
-exit(0)
-
 img = Image.new("RGB", (4 * tile_size, 4 * tile_size))
 for x in xrange(tiles):
     for y in xrange(tiles):
