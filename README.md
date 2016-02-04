@@ -18,3 +18,7 @@ Tested on Debian 8.
 Python dependencies:
 * Python Imaging Library (PIL)
 * Python Bindings for GLib/GObject/GIO/GTK+ (`python-gi` on Debian)
+
+Credit:
+Thanks to Michael Pote for figuring this out!
+https://gist.github.com/MichaelPote/92fa6e65eacf26219022
